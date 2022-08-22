@@ -76,7 +76,6 @@ public class GraphqlclientApplication {
 
 						""";
 
-
 				rSocketGraphQlClient.document(rSocketGraphQlSubscriptionRequest)
 						.retrieveSubscription("greetings")
 						.toEntity(Greeting.class)
